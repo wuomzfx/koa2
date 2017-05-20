@@ -1,0 +1,35 @@
+{
+  "name": "koa2",
+  "version": "1.0.0",
+  "description": "structure of a simple koa2 server project",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start index.js --watch",
+    "dev": "gulp",
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
+  },
+  "keywords": [
+    "koa2"
+  ],
+  "author": "xiangxuezhang",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "2.2.0",
+    "koa-router": "7.1.1",
+    "koa-bodyparser": "4.2.0",
+    "pm2": "2.4.6"
+  },
+  "devDependencies": {
+    "eslint": "3.19.0",
+    "eslint-config-standard": "10.2.1",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-node": "4.2.2",
+    "eslint-plugin-promise": "3.5.0",
+    "eslint-plugin-standard": "3.0.1",
+    "gulp": "3.9.1",
+    "gulp-eslint": "3.0.1",
+    "gulp-nodemon": "2.2.1",
+    "nodemon": "1.11.0"
+  }
+}
