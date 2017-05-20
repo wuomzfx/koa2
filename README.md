@@ -228,7 +228,7 @@ gulp.task('eslint_nodemon', ['eslint'], () => {
 gulp.task('default', ['eslint_nodemon'])
 
 ```
-``` json
+``` javascript
 // package.json scripts
 "scripts": {
   "start": "pm2 start index.js --watch", // 这里用pm2 作为线上run，有兴趣的同学可以自己去看看
